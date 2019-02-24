@@ -1,0 +1,19 @@
+drop table if exists broadband;
+CREATE TABLE broadband 
+(LogRecNo int, 
+ Provider_Id int, 
+ FRN int, 
+ ProviderName varchar, 
+ DBAName varchar, 
+ HoldingCompanyName varchar, 
+ HocoNum int,
+ HocoFinal varchar,
+ StateAbbr char(2),
+ BlockCode bigint,
+ TechCode int,
+ Consumer int,
+ MaxAdDown float(3),
+ MaxAdUp float(3),
+ Business real,
+ MaxCIRDown float(3),
+ MaxCIRUp float(3));
